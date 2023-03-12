@@ -1,0 +1,174 @@
+@media screen and (max-width: 768px){
+ .manus{
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid rgb(132, 132, 132);
+    position: fixed;
+    top: 30px;
+    left: -280px;
+    justify-content: left;
+    align-items: start;
+   transition: .2s;
+ }
+ .manus ul{
+  margin-top: 40px;
+  
+}
+.manus ul li{
+    margin-top: 20px;
+ 
+    width: 200px;
+  }
+  .icons{
+    position: relative;
+    left: 50px;
+    display: flex;
+    top: 80%;
+    
+    position: absolute;
+  }
+ .toggle{
+  width: 30px;
+  height: 30px;
+  /* background-color: #fff; */
+  position: fixed;
+  top: 50px;
+  left: 8px;
+  visibility: visible;
+  transition: .2s;
+  font-size: 2rem;
+  z-index: 3;
+ }
+ .cls{
+  width: 30px;
+  height: 30px;
+  /* background: #fff; */
+  position: absolute;
+  left: 215px;
+  visibility: visible;
+  font-size: 2rem;
+  text-align: center;
+ }
+ .content{
+  flex-direction: column;
+ }
+
+ .service{
+ margin-top: 80px;
+}
+.service .ser-p{
+  width: 350px;
+}
+.port .port-text p{
+  width: 350px;
+
+}
+.port-manus{
+  border: 1px solid var(--a-color);
+  overflow: hidden;
+  height: 65px;
+  width: 100%;
+  transition: .2s;
+}
+.inout{
+  width: 50px;
+  height: 20px;
+  /* background: #ab1919; */
+  position: absolute;
+ margin: -20px 70%;
+ visibility: visible;
+ font-size: 1.5rem;
+ text-align: center;
+ /* overflow: hidden; */
+
+ 
+}
+.hidel{
+  position: relative;
+  margin-right: 8px;
+transform: rotate();
+transition: .2s;
+z-index: 3;
+}
+.hider{
+  font-size: 1.5rem;
+  position: relative;
+  margin-left: 60%;
+  transform: rotate(180deg);
+}
+
+.port-manus ul{
+    list-style: none;
+    text-align: left;
+    ;
+ }
+ .port-manus ul li{
+  display: block;
+    margin-left: 25px;
+    margin-top: 25px
+ }
+  .port-manus ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+ } 
+
+ .all{
+  visibility: visible;
+}
+.top{
+    left: 92%;
+    top: 90vh;
+}
+.scrl-top{
+  font-size: 2rem;
+  padding: 4px 8px;
+   
+}
+.m-box1{
+  width: 140px;
+  height: 250px;
+  border: 1px solid gray;
+
+}
+}
+
+
+@media screen and (max-width: 425px){
+  .my-details{
+    width: 300px;
+    height: 360px;
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+    background: var(--main-color);
+     color: #d31414;
+  }
+  .my-details h1{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: 400;
+    
+}
+.hider{
+  font-size: 1.5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: rotate(180deg);
+}
+.port .port-text p{
+  width: 250px;
+
+}
+.top{
+ 
+  left: 85%;
+  top: 90vh;
+
+}
+.my-work{
+  margin-top: 110px;
+}
+.my-img{
+  width: 365px;
+}
+}
